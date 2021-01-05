@@ -8,7 +8,7 @@ from datetime import date, datetime
 dfTime = pd.read_excel('test.xlsx', sheet_name='Today', usecols = 'A:C', skiprows = 1, nrows = 30)
 
 # This is ideally what I would like to do to calculate the total time
-# dfTime['TotalTime']=dfTime["Time1"] + dfSteps["Time2"]
+# dfTime['TotalTime']=dfTime["Time1"] + dfTime["Time2"]
 
 
 # As an example, I am charting "Time1" here, but I would rather like to chart "TotalTime"
